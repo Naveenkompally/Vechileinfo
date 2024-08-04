@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvVehicleType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Type"
+        android:fontFamily="@font/open_sans"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvMake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make"
+        android:fontFamily="@font/open_sans"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Model"
+        android:fontFamily="@font/open_sans"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year"
+        android:fontFamily="@font/open_sans"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvFuelType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fuel Type"
+        android:fontFamily="@font/open_sans"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capacity"
+        android:fontFamily="@font/open_sans"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvImei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMEI"
+        android:fontFamily="@font/open_sans"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/etVehicleTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Tag"
+        android:fontFamily="@font/open_sans"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/etVehicleRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Registration"
+        android:fontFamily="@font/open_sans"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

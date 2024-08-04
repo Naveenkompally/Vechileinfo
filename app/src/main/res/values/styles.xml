@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomInputLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="errorIconDrawable">@null</item>
+        <item name="hintTextColor">@color/gray_hint</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+
+    <style name="CustomInputEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/bg_edt</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black_10</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:cursorVisible">true</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="CustomSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">?attr/colorControlNormal</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+
+</resources>

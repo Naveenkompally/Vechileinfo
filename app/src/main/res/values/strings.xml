@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">VechileInfo</string>
+    <string name="txt_enter_data">Enter last 6-digits of IMEI</string>
+    <string name="txt_IMEI">IMEI</string>
+    <string name="txt_vehicle_details">Vehicle Details</string>
+    <string name="txt_vehicle_owner">Vehicle Owner</string>
+    <string name="txt_tag_name">Tag Name</string>
+    <string name="txt_registration_number">Registration Number</string>
+    <string name="txt_vehicle_type">Vehicle Type</string>
+    <string name="txt_add_vehicle">Add Vehicle</string>
+    <string name="txt_add_vehicle_details">Vehicle Data</string>
+
+    <string-array name="vehicle_makes">
+        <item>Maruti Suzuki</item>
+        <item>Toyota</item>
+        <item>Honda</item>
+        <item>Ford</item>
+    </string-array>
+
+    <string-array name="vehicle_models">
+        <item>Grand Vitara</item>
+        <item>Corolla</item>
+        <item>Civic</item>
+        <item>Mustang</item>
+    </string-array>
+
+    <string-array name="manufacture_years">
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+    </string-array>
+
+    <string-array name="fuel_types">
+        <item>PETROL</item>
+        <item>DIESEL</item>
+        <item>ELECTRIC</item>
+        <item>HYBRID</item>
+    </string-array>
+
+    <string-array name="capacities">
+        <item>0-5</item>
+        <item>6-10</item>
+        <item>11-15</item>
+        <item>16-20</item>
+    </string-array>
+</resources>
